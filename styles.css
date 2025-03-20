@@ -1,0 +1,130 @@
+/* Basic Reset & Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+  }
+  
+  /* App Container */
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px; /* space for the fixed footer */
+  }
+  
+  /* Header */
+  .header {
+    background-color: #004481;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Navigation */
+  .nav {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+  }
+  
+  .nav li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Page Content */
+  .page-content {
+    padding: 2rem;
+  }
+  
+  .page-content form {
+    margin-top: 1rem;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    padding: 2rem;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Card Actions */
+  .card-actions {
+    margin-top: 1rem;
+  }
+  
+  .card-actions button {
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #004481;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .card-actions button:hover {
+    background-color: #0066bb;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #004481;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* Forms */
+  form div {
+    margin-bottom: 1rem;
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #004481;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0066bb;
+  }
+  
